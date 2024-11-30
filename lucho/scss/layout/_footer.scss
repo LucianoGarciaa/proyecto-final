@@ -1,0 +1,21 @@
+.mega-contenedor-footer{
+    margin-top: 40px;
+    @include flex (space-between, 0, 0);
+    height: 350px;
+    background-color: black;
+}
+.footer-contenedor{
+    @include flex (center, 0, 0);
+    flex-direction: column;
+}
+.img-redes-footer{
+    @include flex (0, 0, 15px);
+    flex-direction: column;
+}
+.logo-footer img{
+    width: 600px;
+}
+.ypf-contenedor{
+    @include flex (end, 0, 0);
+    flex-direction: column;
+}
